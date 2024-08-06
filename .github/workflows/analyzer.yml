@@ -24,10 +24,9 @@ jobs:
       run: invoke test
 
     - name: Run coverage
-      run: invoke coverage
-
-    - name: Generate coverage report
-      run: coverage xml
+      run: |
+        coverage run ...
+        coverage report -m
 
     - name: Coverage Badge
       uses: tj-actions/coverage-badge-py@v2
