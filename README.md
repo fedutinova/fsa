@@ -1,5 +1,5 @@
 # File System Analyzer
-![Coverage](https://github.com/fedutinova/fsa/coverage.svg)
+![Coverage](coverage.svg)
 [![Pipeline](https://github.com/fedutinova/fsa/actions/workflows/analyzer.yml/badge.svg)](https://github.com/fedutinova/fsa/actions/workflows/analyzer.yml)
 
 It is a command-line tool for analyzing directories. It provides functionality to categorize files by MIME type, calculate total sizes of files in each category, report files with unusual permissions, and find large files exceeding a specified size threshold.
