@@ -1,0 +1,8 @@
+altgraph==0.17.4
+coverage==7.6.1
+futures3==1.0.0
+invoke==2.2.0
+macholib==1.16.3
+packaging==24.1
+pyinstaller==6.9.0
+pyinstaller-hooks-contrib==2024.7
